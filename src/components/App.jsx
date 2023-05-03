@@ -13,7 +13,6 @@ export class App extends React.Component {
 
   handleGoodClick = () => {
     this.setState ((prevState) => {
-      // console.log(Object.values(prevState));
       return ({
         good: prevState.good + 1 
       })
